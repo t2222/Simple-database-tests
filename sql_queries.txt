@@ -1,0 +1,12 @@
+drop database if exists menagerie ;
+create database menagerie;
+create table if not exists pet ( name varchar(20), owner varchar(20), sex varchar(5), species varchar(20), birth date, death date );
+show tables;
+describe pet;
+INSERT INTO pet VALUES ('Puffball','Diane','hamster','f','1999-03-30',NULL);
+INSERT INTO pet VALUES ('Aubrey','Elon','Dog','f','1949-03-30',NULL);
+INSERT INTO pet VALUES ('Mei','Sakazuki','Pig','f','1299-03-30',2111-5-05);
+INSERT INTO pet VALUES ('Tatsumaki','Dne','hamster','f','1999-03-30',NULL);
+INSERT INTO pet VALUES ('Rokumon','Die','ham','f','1999-03-30',NULL);
+INSERT INTO pet VALUES ('Taslima nasrin','Shahriar kabir','Bitch','f','1999-03-30',NULL);
+INSERT INTO pet VALUES ('Rokazukenshinomond','Diane','hamster','f','1999-03-30',NULL);
